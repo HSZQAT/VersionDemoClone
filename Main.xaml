@@ -57,7 +57,7 @@
         <OutArgument x:TypeArguments="x:String">[hello]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">Hello</InArgument>
+        <InArgument x:TypeArguments="x:String" xml:space="preserve">Hey there  world</InArgument>
       </Assign.Value>
     </Assign>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="262.4,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[hello]" />
